@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Input Adapter", "1. Input Adapter", "{C796F969-3DD5-4B49-BECB-FB2A76051370}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application Service", "2. Application Service", "{B6CD4158-CB02-4845-B211-F9411F8291E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain Model", "3. Domain Model", "{5DBAE7A6-5C5C-4AFF-ABE9-B8E8F9E4655A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Output Adapter", "4. Output Adapter", "{42A1DDBA-47A0-4240-AD93-9D937299CDB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiVideogames", "ApiVideogames\ApiVideogames.csproj", "{6C82D9C5-E7F4-4FAC-B4A7-7EC05A8865D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C82D9C5-E7F4-4FAC-B4A7-7EC05A8865D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C82D9C5-E7F4-4FAC-B4A7-7EC05A8865D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C82D9C5-E7F4-4FAC-B4A7-7EC05A8865D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C82D9C5-E7F4-4FAC-B4A7-7EC05A8865D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C82D9C5-E7F4-4FAC-B4A7-7EC05A8865D4} = {B6CD4158-CB02-4845-B211-F9411F8291E5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1CDA1DF-D6C4-4B02-8846-AB6F20B0584E}
+	EndGlobalSection
+EndGlobal
