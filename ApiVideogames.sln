@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Output Adapter", "4. Out
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiVideogames", "ApiVideogames\ApiVideogames.csproj", "{6C82D9C5-E7F4-4FAC-B4A7-7EC05A8865D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiVideogames.DomainModel", "ApiVideogames.DomainModel\ApiVideogames.DomainModel.csproj", "{4D1923C4-E95B-40B9-AECA-8FCB7E182AE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{6C82D9C5-E7F4-4FAC-B4A7-7EC05A8865D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C82D9C5-E7F4-4FAC-B4A7-7EC05A8865D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C82D9C5-E7F4-4FAC-B4A7-7EC05A8865D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1923C4-E95B-40B9-AECA-8FCB7E182AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1923C4-E95B-40B9-AECA-8FCB7E182AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1923C4-E95B-40B9-AECA-8FCB7E182AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1923C4-E95B-40B9-AECA-8FCB7E182AE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6C82D9C5-E7F4-4FAC-B4A7-7EC05A8865D4} = {B6CD4158-CB02-4845-B211-F9411F8291E5}
+		{4D1923C4-E95B-40B9-AECA-8FCB7E182AE1} = {5DBAE7A6-5C5C-4AFF-ABE9-B8E8F9E4655A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C1CDA1DF-D6C4-4B02-8846-AB6F20B0584E}
