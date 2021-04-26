@@ -57,6 +57,9 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http.Cors, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.7\lib\net45\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
@@ -144,7 +147,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ApiVideogames.DomainModel\ApiVideogames.DomainModel.csproj">
+      <Project>{4D1923C4-E95B-40B9-AECA-8FCB7E182AE1}</Project>
+      <Name>ApiVideogames.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ApiVideogames.OutputAdapter\ApiVideogames.OutputAdapter.csproj">
+      <Project>{e13ed3d0-e7be-4ab7-b168-b1f0daabd6df}</Project>
+      <Name>ApiVideogames.OutputAdapter</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
