@@ -9,6 +9,7 @@ import Alert from './components/Alert'
 import Home from './pages/Home'
 import Games from './pages/Games'
 import NavBar from './components/Navbar'
+import Loading from './components/Loading'
 
 const App = props => {
   let alert = null
@@ -19,9 +20,10 @@ const App = props => {
   }
   return (
     <React.Fragment>
-      <NavBar />
+      
       {alert}
       <Switch>
+      <Route path="/loading" exact component={Loading} />
         <Route path="/" exact component={Home} />
         <Route path="/games" exact component={Games} />
       </Switch>

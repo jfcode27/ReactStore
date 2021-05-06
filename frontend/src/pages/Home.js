@@ -3,6 +3,7 @@ import { CardDeck, Container } from 'react-bootstrap'
 import axios from '../axios'
 import Carousel from '../components/Carousel'
 import GameCard from '../components/GameCard'
+import Navbar from '../components/Navbar'
 import '../App.css'
 
 const Home = props => {
@@ -23,6 +24,8 @@ const Home = props => {
     }
 
     return (
+        <div>
+        <Navbar />
         <div className="mb-5">
             <div className="c-slider"><Carousel newGames={carousel} /></div>      
             <Container className="mt-3 game-releases">
@@ -31,6 +34,7 @@ const Home = props => {
                     {newGameCards}
                 </CardDeck>
             </Container>
+        </div>
         </div>
     )
 }

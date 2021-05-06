@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { connect } from 'react-redux'
 import { Container, Alert } from 'react-bootstrap'
+import Navbar from '../components/Navbar'
 
 import axios from '../axios'
 import PlatformDeck from '../components/PlatformDeck'
@@ -48,9 +49,12 @@ const Games = props => {
     }
 
     return (
+        <div>
+        <Navbar />
         <Container>
             {platformDecks}
         </Container>
+        </div>
     )
 }
 

@@ -11,10 +11,10 @@ namespace ApiVideogames.Controllers
     public class VideogamesCatalogueController : ApiController
     {
         [HttpGet]
-        [Route("date")]
-        public HttpResponseMessage getVideogamesByDate()
+        [Route("")]
+        public HttpResponseMessage getVideogames()
         {
-            var videogamesList = VideogamesRepository.ConsultarVideojuegosPorFecha();
+            var videogamesList = VideogamesRepository.ConsultarVideojuegos();
 
             return Request.CreateResponse(HttpStatusCode.OK, videogamesList);
         }
