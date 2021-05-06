@@ -11,6 +11,7 @@ const Home = props => {
 
     useEffect(async () => {
         const response = await axios.get('date')
+        console.log('response')
         setCarousel(response.data.slice(0, 3))
         setNewReleases(response.data.slice(3, 6))
     }, [])
@@ -18,13 +19,13 @@ const Home = props => {
     let newGameCards = null
     if (newReleases.length > 0) {
         newGameCards = newReleases.map(game => {
-            return <GameCard game={game} colWidth="4"  pathname={props.location.pathname} />
+            return <GameCard game={game} colWidth="4" pathname={props.location.pathname} />
         })
     }
 
     return (
         <div className="mb-5">
-            <div className="c-slider"><Carousel newGames={carousel} /></div>      
+            <div className="c-slider"><Carousel newGames={carousel} /></div>
             <Container className="mt-3 game-releases">
                 <h3>New Releases</h3>
                 <CardDeck className="row">
