@@ -10,6 +10,7 @@ namespace ApiVideogames.Controllers
     [EnableCors("*", "*", "*")]
     public class VideogamesCatalogueController : ApiController
     {
+        [HttpGet]
         [Route("date")]
         public HttpResponseMessage getVideogamesByDate()
         {
