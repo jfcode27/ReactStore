@@ -130,7 +130,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\VideogamesController.cs" />
+    <Compile Include="Controllers\VideogamesCatalogueController.cs" />
+    <Compile Include="Controllers\VideogamesDateController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
