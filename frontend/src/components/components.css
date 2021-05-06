@@ -1,0 +1,26 @@
+body{
+    background-color: #191919;
+}
+
+.navbar{
+background-color: #191919!important;
+}
+
+.navbar-brand{
+    color: #fff!important;
+}
+
+.navbar a {
+    color: #fff!important;
+}
+
+.slider{
+    width: 50vw; 
+}
+.card-preview{
+    border-radius: 16px;
+    background: #191919;
+    box-shadow:  13px -13px 21px #121212,
+                 -13px 13px 21px #202020;
+}
+
