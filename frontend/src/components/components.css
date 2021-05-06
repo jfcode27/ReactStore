@@ -1,9 +1,9 @@
 body{
-    background-color: #1834A9;
+    background-color: #191919;
 }
 
 .navbar{
-background-color: rgba(0, 8, 20)!important;
+background-color: #191919!important;
 }
 
 .navbar-brand{
@@ -13,3 +13,14 @@ background-color: rgba(0, 8, 20)!important;
 .navbar a {
     color: #fff!important;
 }
+
+.slider{
+    width: 50vw; 
+}
+.card-preview{
+    border-radius: 16px;
+    background: #191919;
+    box-shadow:  13px -13px 21px #121212,
+                 -13px 13px 21px #202020;
+}
+

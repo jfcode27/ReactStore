@@ -12,7 +12,7 @@ const gameCard = (props) => {
     console.log(imageUrl)
     return (
         <Col lg={props.colWidth} className="mt-3">
-            <Card bg="light" key={props.game._id} className="h-100 m-0">
+            <Card key={props.game._id} className="h-100 m-0 card-preview">
                 <Card.Img src={imageUrl} variant="top" alt={props.game.title} />
                 <Card.Body>
                     <Card.Title>

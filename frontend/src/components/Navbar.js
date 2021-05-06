@@ -13,7 +13,7 @@ const navigationBar = () => {
                 <NavLink to="/"><Navbar.Brand>React Games</Navbar.Brand></NavLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse>
-                    <Nav className="mx-auto">.
+                    <Nav className="mx-auto">
                         <NavLink to="/" activeClassName="active" exact className="nav-link">Home</NavLink>
                         <NavLink to="/games" activeClassName="active" exact className="nav-link">Games</NavLink>
                     </Nav>

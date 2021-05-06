@@ -15,7 +15,7 @@ const carousel = (props) => {
     })
 
     return (
-        <Carousel>
+        <Carousel className="slider">
             {carouselItems}
         </Carousel>
     )
